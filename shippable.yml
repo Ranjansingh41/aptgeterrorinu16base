@@ -1,0 +1,11 @@
+language: java
+
+ 
+build:
+  pre_ci_boot:
+    image_name: drydock/u16
+    image_tag: 
+    pull: true
+    
+  ci:
+    - apt-get update
